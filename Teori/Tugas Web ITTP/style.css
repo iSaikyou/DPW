@@ -1,5 +1,5 @@
 body {
-    background-color: #ccc;
+    background-color: rgb(151, 151, 151);
 }
 
 .tab{
@@ -15,8 +15,8 @@ body {
 
 #pencarian{
     border-radius: 30px;
-    background-color: rgb(240, 92, 92);
-    border-color: white;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(2, 2, 2);
 }
 
 .content {
