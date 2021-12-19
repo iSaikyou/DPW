@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+</head>
+
+<body>
+    <font type=arial size="5">
+        <table>
+            <thead>
+                <tr>
+                    <td>
+                        <type=arial black font size="6"> <b>Form HTML</b>
+                        <br /> <br />     
+                    </td> 
+                </tr> 
+            </thead>
+            <tr>
+                <td>Name: <input type="text" name="nama"></td>
+            </tr>
+            <tr>
+                <td>Gender : 
+                    <input type="radio" name="gender" value="P"> Man
+                    <input type="radio" name="gender" value="W"> Woman
+                </td>
+            </tr>
+            <tr>
+                <td>Address: <input type="text" name="address"></td>
+            </tr>
+            <tr>
+                <td>Country: 
+                     <select name="Country" style="font-size: 20px;">
+                            <option value="dg">Indonesia</option>
+                            <option value="pj">United States</option>
+                            <option value="sa">Korea</option>
+                     </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email: <input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    Photo: 
+                    <input type="text" for="photo">
+                    <input type="submit" name="Browse" value="Browse...">   
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <form>
+                        Comment: 
+                        <textarea name="comment" cols="30" rows="5"></textarea>
+                        <input type="submit" value="Submit" name="Submit">
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </font>
+</body>
+</html>

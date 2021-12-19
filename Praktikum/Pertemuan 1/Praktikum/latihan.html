@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TITLE WEB-->
+    <title>Form HTML</title>
+
+</head>
+<body>
+    <font type=arial size="5">
+        <table>
+            <thead> 
+                <tr> 
+                    <td> 
+                        <font type=arial black font size="6"> DATA DIRI</font>      
+                    </td> 
+                </tr> 
+            </thead>
+            <tr>
+                <td>Nama</td>
+                <td> : </td>
+                <td><input type="text" name="nama"></td>
+            </tr>
+            </td>
+            <tr>
+                <td>NIM</td>
+                <td> : </td>
+                <td><input type="text" name="nim"></td>
+            </tr>
+            </td>
+            <tr>
+                <td>Password</td>
+                <td> : </td>
+                <td><input type="password" name="password" size="11" maxlength="9" ></td>
+            </tr>
+            </td>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td> : </td>
+                <td>
+                    <input type="radio" name "jenis_kelamin" value="P"> Pria 
+                    <input type="radio" name "jenis_kelamin" value="W"> Wanita
+            </tr>
+            </td>
+            <tr>
+                <td>Hobi</td>
+                <td> : </td>
+                <td>
+                    <input  type="checkbox" name="hobi_1" value="menonton"> Menonton
+                    <input  type="checkbox" name="hobi_2" value="Game"> Bermain Game
+                    <input  type="checkbox" name="hobi_3" value="Belanja"> Belanja
+                    <input  type="checkbox" name="hobi_4" value="OLahraga"> Olahraga 
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <form>
+                        <input type="submit" value="Kirim" name="Submit">
+                        <input type="reset" value="Ulang" name="Reset">
+                        <input type="button" value="Batal" name="Cancel">
+                        <input type="image" src="Valorant.jpg" name="Gambar" width="194" height="90">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                     <textarea name="deskripsi" cols="45" rows="5" align="center">
+                         Deskripsi Singkat
+                     </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    Silahkan Pilih Orientasi Minat:
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <select name="orientasi-minat">
+                        <option value="dg">Desain Grafis</option>
+                        <option value="pj">Programmer Java</option>
+                        <option value="sa">Sistem Analisis</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="orientasi-kemampuan">
+                        <option value="dg">Desain Grafis</option>
+                        <option value="pj">Programmer Java</option>
+                        <option value="sa">Sistem Analisis</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </font>
+</body>
+</html>
